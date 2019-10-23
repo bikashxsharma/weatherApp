@@ -12,12 +12,12 @@ body{
 /*Main container for everything*/
 #container{
     width:250px;
-    height:240px;
     margin:1rem auto auto auto;
-    padding-top:3rem;
+    padding:2rem 0px 0.5rem 0px;
     background-color: #ffffff;
     border-radius: 0.5rem;
     text-align: center;
+
 }
 .weather-container{
     background-color: #dddcdc;
@@ -28,10 +28,42 @@ body{
     color: rgb(116, 113, 113);
     font-weight: 400;
 }
+/*Icon color*/
+
 
 /*Temp value in flex*/
 .temp-value{
     display:flex;
     align-content: center;
     justify-content: center;
+}
+.temp-value {
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.temp-value span{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+
+}
+/*Button*/
+.degree-convert{
+    background-color: rgb(35, 192, 132);
+    color:white;
+    padding:1rem;
+    margin:0.3rem 0.5rem 0.2rem 0.5rem;
+    cursor: pointer;
+}
+.degree-convert:hover{
+    background-color: rgb(28, 151, 104);
+}
+
+/*notification*/
+.notification{
+background-color: lightcoral;
+font-size: 1rem;
+
 }
